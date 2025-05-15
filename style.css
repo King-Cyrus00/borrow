@@ -1,6 +1,6 @@
 nav {
     background-color: black;
-    font-size: 30px;
+    
     color: white;
     display: flex;
     height: 80px;
@@ -14,7 +14,7 @@ nav {
 }
 
 .icon {
-    color: red;
+    color: #F43F00;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
@@ -29,7 +29,7 @@ nav {
 }
 
 a:hover {
-    color: red;
+    color: #F43F00;
 }
 
 .hero {
@@ -40,7 +40,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: -o-linear-gradient(red);
+    margin: auto;
     width: 100%;
 
 }
@@ -131,7 +131,7 @@ input {
 }
 
 .form-btn:hover {
-    color: red;
+    color:#F43F00;
 }
 
 .us-head {
@@ -155,7 +155,7 @@ input {
 
 .img-icon {
     padding: 10px;
-    border: 4px solid red;
+    border: 4px solid #F43F00;
     border-radius: 60%;
     width: 70px;
     cursor: pointer;
@@ -163,12 +163,12 @@ input {
 }
 
 .img-icon:hover {
-    background-color: red;
+    background-color: #F43F00;
 }
 
 .us {
-    height: 550px;
-    
+    height: 500px;
+    background-color: #FFFFFF;
 }
 
 .us-h {
@@ -186,7 +186,7 @@ input {
 }
 
 .us-btn {
-    background-color: red;
+    background-color: #F43F00;
     color: white;
     font-weight: bold;
     border: none;
@@ -204,7 +204,51 @@ input {
 }
 
 .us-btn:hover{
-    color: red;
+    color: #F43F00;
     background-color: rgb(19, 12, 12);
     transition: 0.6s ease-in-out;
+}
+
+.you{
+   background-color: #DDDDDD;
+   background-image: url(./img/sec3.jpeg);
+   height: 50vh;
+}
+
+.you1{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+   padding: 80px 0px 0px 0px;
+}
+
+.you-s{
+    color: #F43F00;
+    font-weight: bolder;
+}
+
+.you2{
+    color: rgba(6, 10, 15, 0.733);
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.you-btn{
+     background-color: rgb(29, 14, 14);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    height: 60px;
+    text-align: center;
+    padding: 15px 0px ;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
 }
