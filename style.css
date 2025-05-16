@@ -13,6 +13,12 @@ nav {
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .icon {
     color: #F43F00;
     font-size: 40px;
